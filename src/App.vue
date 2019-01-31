@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <md-toolbar class="md-primary">
+    <md-toolbar>
       <h1 class="md-title">PoseKey</h1>
     </md-toolbar>
     

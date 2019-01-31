@@ -27,13 +27,14 @@
     
     <md-table md-card>
       <md-table-toolbar>
-        <h1 class="md-title">Pose Description</h1>
+        <p class="md-title">Pose Description</p>
+        <p class="md-caption">If you pose, the corresponding function will work.</p>        
       </md-table-toolbar>
 
       <md-table-row>
         <md-table-head>Pose</md-table-head>
         <md-table-head>Description</md-table-head>
-        <md-table-head>Skill</md-table-head>
+        <md-table-head>Function</md-table-head>
       </md-table-row>
 
       <md-table-row>
@@ -42,30 +43,62 @@
             <img src="../assets/pose1.png" alt="Pose1">
           </md-avatar>
         </md-table-cell>
-        <md-table-cell>오른손을 든 자세</md-table-cell>
-        <md-table-cell>Play/Pause</md-table-cell>
-      </md-table-row>
-
-      <md-table-row>
-        <md-table-cell>
-          <md-avatar>
-            <img src="../assets/pose2.png" alt="Pose1">
-          </md-avatar>
-        </md-table-cell>
-        <md-table-cell>왼손을 든 자세</md-table-cell>
+        <md-table-cell>An upward posture of the right arm</md-table-cell>
         <md-table-cell>Scroll Up</md-table-cell>
       </md-table-row>
 
       <md-table-row>
         <md-table-cell>
           <md-avatar>
-            <img src="../assets/pose3.png" alt="Pose1">
+            <img src="../assets/pose2.png" alt="Pose2">
           </md-avatar>
         </md-table-cell>
-        <md-table-cell>양손을 든 자세</md-table-cell>
+        <md-table-cell>An upward posture of the left arm</md-table-cell>
+        <md-table-cell>Scroll Down</md-table-cell>
+      </md-table-row>
+
+      <md-table-row>
+        <md-table-cell>
+          <md-avatar>
+            <img src="../assets/pose3.png" alt="Pose3">
+          </md-avatar>
+        </md-table-cell>
+        <md-table-cell>A posture with both arms raised</md-table-cell>
+        <md-table-cell>Play/Pause</md-table-cell>
+      </md-table-row>
+
+      <md-table-row>
+        <md-table-cell>
+          <md-avatar>
+            <img src="../assets/pose4.png" alt="Pose4">
+          </md-avatar>
+        </md-table-cell>
+        <md-table-cell>A posture with both arms in a horizontal position</md-table-cell>
+        <md-table-cell>Volume Up</md-table-cell>
+      </md-table-row>
+
+      <md-table-row>
+        <md-table-cell>
+          <md-avatar>
+            <img src="../assets/pose5.png" alt="Pose5">
+          </md-avatar>
+        </md-table-cell>
+        <md-table-cell>A horizontal posture of right arm</md-table-cell>
+        <md-table-cell>Volume Down</md-table-cell>
+      </md-table-row>
+
+      <md-table-row>
+        <md-table-cell>
+          <md-avatar>
+            <img src="../assets/pose6.png" alt="Pose6">
+          </md-avatar>
+        </md-table-cell>
+        <md-table-cell>A horizontal posture of left arm</md-table-cell>
         <md-table-cell>Scroll Down</md-table-cell>
       </md-table-row>
     </md-table>
+
+    
 
   </div>
 </template>
