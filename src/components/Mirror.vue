@@ -1,5 +1,6 @@
 <template>
     <div>
+        <div v-if="loading">loading..</div>
         <canvas id="output" width="640" height="480"></canvas>
     </div>
 </template>
@@ -15,7 +16,8 @@ export default {
     name: 'Mirror',
     data () {
         return {
-            msg: 'Welcome to Your Vue.js App'
+            msg: 'Welcome to Your Vue.js App',
+            loading: true
         }
     },
     methods: {
@@ -24,6 +26,7 @@ export default {
     async mounted(){
        net = await posenet.load(1.01);
        video = await loadVideo();
+       this.loading = false;
        detectPose(video,net);
     },
     beforeDestroy(){
