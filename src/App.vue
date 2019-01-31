@@ -2,6 +2,7 @@
   <div id="app">
     <md-toolbar>
       <h1 class="md-title">PoseKey</h1>
+      <md-switch class="md-toolbar-section-end" v-model="boolean">on/off</md-switch>
     </md-toolbar>
     
     <md-tabs class="md-primary" md-sync-route md-alignment="centered">
@@ -15,7 +16,12 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data () {
+    return {
+      boolean: true
+    }
+  }
 }
 </script>
 
@@ -28,10 +34,4 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-/* .md-card {
-    width: 320px;
-    margin: 4px;
-    display: inline-block;
-    vertical-align: top;
-  } */
 </style>
