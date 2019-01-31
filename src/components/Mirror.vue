@@ -1,7 +1,13 @@
 <template>
     <div>
-        <div v-if="loading">loading..</div>
-        <canvas id="output" width="640" height="480"></canvas>
+        <div id="ifNErr">
+            <canvas id="output" width="640" height="480"></canvas>
+        </div>
+        <div id="ifErr" style="display:none">
+            <p id=info> Camera access has been denied. If you have camera, you can allow access
+            <a href="chrome-extension://fpfajkghpigdinfdcjbopjpkeigdbjlo/options.html" target="_blank">here</a>
+            .</p>
+        </div>
     </div>
 </template>
 
@@ -24,10 +30,19 @@ export default {
         
     },
     async mounted(){
-       net = await posenet.load(1.01);
-       video = await loadVideo();
-       this.loading = false;
-       detectPose(video,net);
+        net = await posenet.load(1.01);
+        try{
+            video = await loadVideo();
+        }
+        catch(e){
+            let ifErr = document.getElementById('ifErr');
+            ifErr.style.display = 'block';
+
+            let ifNErr = document.getElementById('ifNErr');
+            ifNErr.style.display = 'none';
+            throw e;
+        }
+        detectPose(video,net);
     },
     beforeDestroy(){
         net.dispose();
@@ -35,6 +50,10 @@ export default {
     }
 }
 async function loadVideo(){
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+    throw new Error(
+        'Browser API navigator.mediaDevices.getUserMedia not available');
+    }
     stream = await navigator.mediaDevices.getUserMedia({ video: true, audio: false })
     let video = document.createElement('video');
     video.height = height;
