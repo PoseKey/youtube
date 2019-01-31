@@ -5,7 +5,7 @@
         </div>
         <div id="ifErr" style="display:none">
             <p id=info> Camera access has been denied. If you have camera, you can allow access
-            <a href="chrome-extension://fpfajkghpigdinfdcjbopjpkeigdbjlo/options.html" target="_blank">here</a>
+            <a href="chrome-extension://pifojknhlbglpfoehbppiddjlgebooom/options.html" target="_blank">here</a>
             .</p>
         </div>
     </div>
