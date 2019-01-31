@@ -3,7 +3,7 @@
     <md-toolbar>
       <h1 class="md-title">PoseKey</h1>
       <div class="md-toolbar-section-end">
-        <md-switch id="switch" v-model="boolean" change="switched()"></md-switch>
+        <md-switch id="switch" v-model="boolean" @change="switched()"></md-switch>
       </div>
     </md-toolbar>
     <md-tabs class="md-primary" md-sync-route md-alignment="centered">
