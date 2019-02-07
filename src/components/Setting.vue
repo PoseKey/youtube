@@ -44,7 +44,7 @@
           </md-avatar>
         </md-table-cell>
         <md-table-cell>An upward posture of the right arm</md-table-cell>
-        <md-table-cell>Scroll Up</md-table-cell>
+        <md-table-cell>Play/Pause</md-table-cell>
       </md-table-row>
 
       <md-table-row>
@@ -54,7 +54,7 @@
           </md-avatar>
         </md-table-cell>
         <md-table-cell>An upward posture of the left arm</md-table-cell>
-        <md-table-cell>Scroll Down</md-table-cell>
+        <md-table-cell>Next Video</md-table-cell>
       </md-table-row>
 
       <md-table-row>
@@ -64,7 +64,7 @@
           </md-avatar>
         </md-table-cell>
         <md-table-cell>A posture with both arms raised</md-table-cell>
-        <md-table-cell>Play/Pause</md-table-cell>
+        <md-table-cell>Volume Up</md-table-cell>
       </md-table-row>
 
       <md-table-row>
@@ -74,7 +74,7 @@
           </md-avatar>
         </md-table-cell>
         <md-table-cell>A posture with both arms in a horizontal position</md-table-cell>
-        <md-table-cell>Volume Up</md-table-cell>
+        <md-table-cell>Volume Down</md-table-cell>
       </md-table-row>
 
       <md-table-row>
@@ -84,7 +84,7 @@
           </md-avatar>
         </md-table-cell>
         <md-table-cell>A horizontal posture of right arm</md-table-cell>
-        <md-table-cell>Volume Down</md-table-cell>
+        <md-table-cell>Skip 5 second forward</md-table-cell>
       </md-table-row>
 
       <md-table-row>
@@ -94,7 +94,7 @@
           </md-avatar>
         </md-table-cell>
         <md-table-cell>A horizontal posture of left arm</md-table-cell>
-        <md-table-cell>Scroll Down</md-table-cell>
+        <md-table-cell>Skip 5 second backward</md-table-cell>
       </md-table-row>
     </md-table>
 

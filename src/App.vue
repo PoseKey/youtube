@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <md-toolbar>
-      <h1 class="md-title">PoseKey</h1>
+      <h1 class="md-title">Youtube PoseKey</h1>
       <div class="md-toolbar-section-end">
         <md-switch id="switch" v-model="boolean" @change="switched()"></md-switch>
       </div>
     </md-toolbar>
-    <md-tabs class="md-primary" md-sync-route md-alignment="centered">
+    <md-tabs class="md-accent"  md-sync-route md-alignment="fixed">
       <md-tab id="tab-home" md-label="Poses" to="/">
       </md-tab>
       <md-tab id="tab-pages" md-label="Mirror" to="/Mirror"></md-tab>
