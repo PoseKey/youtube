@@ -7,7 +7,7 @@
       </div>
     </md-toolbar>
     <md-tabs class="md-primary" md-sync-route md-alignment="centered">
-      <md-tab id="tab-home" md-label="Settings" to="/">
+      <md-tab id="tab-home" md-label="Poses" to="/">
       </md-tab>
       <md-tab id="tab-pages" md-label="Mirror" to="/Mirror"></md-tab>
     </md-tabs>
@@ -65,7 +65,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 
 /* .md-card {

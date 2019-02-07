@@ -26,10 +26,10 @@
     </md-card> -->
     
     <md-table md-card>
-      <md-table-toolbar>
+      <!-- <md-table-toolbar>
         <p class="md-title">Pose Description</p>
         <p class="md-caption">If you pose, the corresponding function will work.</p>        
-      </md-table-toolbar>
+      </md-table-toolbar> -->
 
       <md-table-row>
         <md-table-head>Pose</md-table-head>
