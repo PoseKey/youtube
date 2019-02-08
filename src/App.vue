@@ -1,6 +1,8 @@
 <template>
   <div id="app">
     <md-toolbar>
+      <!-- <mdi-youtube></mdi-youtube> -->
+      <img id="logo" src="./assets/youtube.png">
       <h1 class="md-title">Youtube PoseKey</h1>
       <div class="md-toolbar-section-end">
         <md-switch id="switch" v-model="boolean" @change="switched()"></md-switch>
@@ -68,6 +70,9 @@ export default {
   /* margin-top: 60px; */
 }
 
+#logo {
+  height: 40px;
+}
 /* .md-card {
     width: 320px;
     margin: 4px;

@@ -10,6 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@mdi/font": "^3.4.93",
     "@tensorflow-models/posenet": "^0.2.3",
     "@tensorflow/tfjs": "^0.14.2",
     "vue": "^2.5.2",
