@@ -67,7 +67,7 @@ function detectPose(video,net){
     const canvas = document.getElementById('output');
     const ctx = canvas.getContext('2d');
     async function detect(){
-        const pose = await net.estimateSinglePose(video,0.5,true,16);
+        const pose = await net.estimateSinglePose(video,0.3,true,16);
         ctx.clearRect(0,0,width,height);
         ctx.save();
         ctx.scale(-1, 1);
