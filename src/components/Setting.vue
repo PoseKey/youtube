@@ -74,7 +74,7 @@
           </md-avatar>
         </md-table-cell>
         <md-table-cell>A posture with both arms in a horizontal position</md-table-cell>
-        <md-table-cell>Skip 5 second forward</md-table-cell>
+        <md-table-cell>Skip 10 second forward</md-table-cell>
       </md-table-row>
 
       <md-table-row>
@@ -84,7 +84,7 @@
           </md-avatar>
         </md-table-cell>
         <md-table-cell>A horizontal posture of right arm</md-table-cell>
-        <md-table-cell>Skip 5 second backward</md-table-cell>
+        <md-table-cell>Skip 10 second backward</md-table-cell>
       </md-table-row>
 
       <md-table-row>
