@@ -44,7 +44,7 @@
           </md-avatar>
         </md-table-cell>
         <md-table-cell>An upward posture of the left arm</md-table-cell>
-        <md-table-cell>Volume up</md-table-cell>
+        <md-table-cell>Volume Down</md-table-cell>
       </md-table-row>
 
       <md-table-row>
@@ -54,7 +54,7 @@
           </md-avatar>
         </md-table-cell>
         <md-table-cell>An upward posture of the right arm</md-table-cell>
-        <md-table-cell>Volume down</md-table-cell>
+        <md-table-cell>Volume Up</md-table-cell>
       </md-table-row>
 
       <md-table-row>
